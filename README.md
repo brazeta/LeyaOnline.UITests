@@ -12,7 +12,7 @@ To be able to open, build and run the automated UI tests in this project please 
 6) The Clone process should complete without errors and the VS Solution should open.
 ![image](https://github.com/user-attachments/assets/c20ff97b-e515-4535-a583-c84a8eb494f0)
 
-8) If the Solution Explorer window is not visible please Click on View > Solution Explorer
+7) If the Solution Explorer window is not visible please Click on View > Solution Explorer
 ![image](https://github.com/user-attachments/assets/9f8de989-fad3-4d89-afa3-f0d172366a58)
 
 8)To open the Test Explorer window (if not open already) go to Test > Test Explorer
@@ -23,3 +23,8 @@ To be able to open, build and run the automated UI tests in this project please 
 
 10) The project should build without any errors. The Test Explorer window should be updated with the following tests:
 ![image](https://github.com/user-attachments/assets/2bda8f50-1eea-4432-85b7-c319ce770796)
+
+11)To run the tests select one or more in the Test Explorer window, Right-Click on them, and Select the option "Run"
+![image](https://github.com/user-attachments/assets/cd72e7d7-6ba1-4aaa-be0f-00a77181275c)
+
+12)As the tests start running the browser will be open and closed automatically. All tests should succeed

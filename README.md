@@ -34,3 +34,5 @@ To be able to open, build and run the automated UI tests in this project please 
 ![image](https://github.com/user-attachments/assets/df12c3e9-e2ae-4899-93f5-95639f260f96)
 
 14) To run the tests in headless mode modify the appSetting "RunTestsInHeadlessMode" (set it to either "true" or "false")
+15) All test code is located under "LeyaOnline.UITests" > "UITestMethods" > "LeyaOnlineTestClass.cs"
+

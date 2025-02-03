@@ -25,6 +25,7 @@ namespace LeyaOnline.UITests
         }
 
         [TestMethod]
+        [Description("Scenario 1")]
         public void LeyaOnline_TestMethod001()
         {
             var bookInformation = dbConnector.bookTable.GetByNameAndAuthor("O Triunfo dos Porcos", "GEORGE ORWELL").First();
@@ -67,6 +68,7 @@ namespace LeyaOnline.UITests
         }
 
         [TestMethod]
+        [Description("Scenario 2")]
         public void LeyaOnline_TestMethod002()
         {
             var bookInformation = dbConnector.bookTable.GetByNameAndAuthor("1984", "GEORGE ORWELL").First();
@@ -110,6 +112,7 @@ namespace LeyaOnline.UITests
         }
 
         [TestMethod]
+        [Description("Scenario 3")]
         public void LeyaOnline_TestMethod003()
         {
             var book1Information = dbConnector.bookTable.GetByNameAndAuthor("1984", "GEORGE ORWELL").First();
@@ -152,6 +155,7 @@ namespace LeyaOnline.UITests
         }
 
         [TestMethod]
+        [Description("Scenario 4")]
         public void LeyaOnline_TestMethod004()
         {
             var book1Information = dbConnector.bookTable.GetByNameAndAuthor("1984", "GEORGE ORWELL").First();
@@ -190,6 +194,7 @@ namespace LeyaOnline.UITests
         }
 
         [TestMethod]
+        [Description("Scenario 5")]
         public void LeyaOnline_TestMethod005()
         {
             homePage
@@ -214,6 +219,7 @@ namespace LeyaOnline.UITests
         }
 
         [TestMethod]
+        [Description("Scenario 6 - Add different books to the shopping cart - Validate the total cart price")]
         public void LeyaOnline_TestMethod006()
         {
             var book_1984 = dbConnector.bookTable.GetByNameAndAuthor("1984", "GEORGE ORWELL").First();
@@ -267,6 +273,7 @@ namespace LeyaOnline.UITests
         }
 
         [TestMethod]
+        [Description("Scenario 7 - Add the same book multiple times to the shopping cart - Validate the total cart price")]
         public void LeyaOnline_TestMethod007()
         {
             var book_1984 = dbConnector.bookTable.GetByNameAndAuthor("1984", "GEORGE ORWELL").First();

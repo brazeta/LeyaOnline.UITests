@@ -16,4 +16,10 @@ To be able to open, build and run the automated UI tests in this project please 
 ![image](https://github.com/user-attachments/assets/9f8de989-fad3-4d89-afa3-f0d172366a58)
 
 8)To open the Test Explorer window (if not open already) go to Test > Test Explorer
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/6d5c439e-ebe4-4b95-ab01-8fc10ccfe9ee)
+
+9)Right rlick on the project "LeyaOnline.UITests" and Select the option "Build"
+![image](https://github.com/user-attachments/assets/d3ad4111-5ad1-4963-b794-4d5a38cdff02)
+
+10) The project should build without any errors. The Test Explorer window should be updated with the following tests:
+![image](https://github.com/user-attachments/assets/2bda8f50-1eea-4432-85b7-c319ce770796)

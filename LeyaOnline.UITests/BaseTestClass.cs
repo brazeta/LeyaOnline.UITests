@@ -10,6 +10,7 @@ using LeyaOnline.UITestsFramework;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
 
@@ -139,6 +140,7 @@ namespace LeyaOnline.UITests
                 case "Chrome":
 
                     var options = new ChromeOptions();
+                    options.AddUserProfilePreference("download.default_directory", DownloadsDir);
 
                     if (runTestsInHeadlessMode.Equals("true"))
                     {
@@ -148,6 +150,21 @@ namespace LeyaOnline.UITests
 
                     options.SetLoggingPreference(LogType.Driver, LogLevel.Severe);
                     driver = new ChromeDriver(options);
+                    driver.Manage().Cookies.DeleteAllCookies();
+
+                    break;
+                case "Edge":
+
+                    EdgeOptions edgeOptions = new EdgeOptions();
+                    edgeOptions.AddUserProfilePreference("download.default_directory", DownloadsDir);
+
+                    if (runTestsInHeadlessMode.Equals("true"))
+                    {
+                        edgeOptions.AddArguments("--headless=new");
+                        edgeOptions.AddArguments("window-size=1920,1080");
+                    }
+
+                    driver = new EdgeDriver(edgeOptions);
                     driver.Manage().Cookies.DeleteAllCookies();
 
                     break;

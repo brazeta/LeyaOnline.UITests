@@ -15,16 +15,22 @@ To be able to open, build and run the automated UI tests in this project please 
 7) If the Solution Explorer window is not visible please Click on View > Solution Explorer
 ![image](https://github.com/user-attachments/assets/9f8de989-fad3-4d89-afa3-f0d172366a58)
 
-8)To open the Test Explorer window (if not open already) go to Test > Test Explorer
+8) To open the Test Explorer window (if not open already) go to Test > Test Explorer
 ![image](https://github.com/user-attachments/assets/6d5c439e-ebe4-4b95-ab01-8fc10ccfe9ee)
 
-9)Right rlick on the project "LeyaOnline.UITests" and Select the option "Build"
+9) Right rlick on the project "LeyaOnline.UITests" and Select the option "Build"
 ![image](https://github.com/user-attachments/assets/d3ad4111-5ad1-4963-b794-4d5a38cdff02)
 
 10) The project should build without any errors. The Test Explorer window should be updated with the following tests:
 ![image](https://github.com/user-attachments/assets/2bda8f50-1eea-4432-85b7-c319ce770796)
 
-11)To run the tests select one or more in the Test Explorer window, Right-Click on them, and Select the option "Run"
+11) To run the tests select one or more in the Test Explorer window, Right-Click on them, and Select the option "Run"
 ![image](https://github.com/user-attachments/assets/cd72e7d7-6ba1-4aaa-be0f-00a77181275c)
 
-12)As the tests start running the browser will be open and closed automatically. All tests should succeed
+12) As the tests start running the browser will be open and closed automatically. All tests should succeed
+![image](https://github.com/user-attachments/assets/a2309a8f-b67e-4b7a-b7bf-266e6eda1f32)
+
+13) To select a browser to run the tests please open the app.config file under the "LeyaOnline.UITests" project and modify the "browser" appSetting (you can select either Chrome or Edge)
+![image](https://github.com/user-attachments/assets/df12c3e9-e2ae-4899-93f5-95639f260f96)
+
+14) To run the tests in headless mode modify the appSetting "RunTestsInHeadlessMode" (set it to either "true" or "false")

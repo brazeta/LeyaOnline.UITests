@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeyaOnline.UITests", "LeyaOnline.UITests\LeyaOnline.UITests.csproj", "{71664348-7A24-4BB0-80BA-833A0DA79F4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeyaOnline.UITestsFramework", "LeyaOnline.UITestsFramework\LeyaOnline.UITestsFramework.csproj", "{8D846848-9A05-4372-9D4E-10E7E86C7531}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseConnector", "DatabaseConnector\DatabaseConnector.csproj", "{2183AF51-9386-458F-8462-8901A320FC1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71664348-7A24-4BB0-80BA-833A0DA79F4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71664348-7A24-4BB0-80BA-833A0DA79F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71664348-7A24-4BB0-80BA-833A0DA79F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71664348-7A24-4BB0-80BA-833A0DA79F4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D846848-9A05-4372-9D4E-10E7E86C7531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D846848-9A05-4372-9D4E-10E7E86C7531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D846848-9A05-4372-9D4E-10E7E86C7531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D846848-9A05-4372-9D4E-10E7E86C7531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2183AF51-9386-458F-8462-8901A320FC1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2183AF51-9386-458F-8462-8901A320FC1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2183AF51-9386-458F-8462-8901A320FC1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2183AF51-9386-458F-8462-8901A320FC1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
